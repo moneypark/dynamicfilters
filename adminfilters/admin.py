@@ -13,7 +13,7 @@ from django.http import HttpResponse
 from django.shortcuts import get_object_or_404, render_to_response, redirect
 from django.template import RequestContext
 from django.utils.encoding import smart_str
-from django.contrib.admin.util import get_fields_from_path, lookup_needs_distinct, prepare_lookup_value
+from django.contrib.admin.utils import get_fields_from_path, lookup_needs_distinct, prepare_lookup_value
 
 from models import CustomFilter, CustomQuery, CustomBundledQuery
 from forms import CustomFilterForm, AddCustomFilterForm
